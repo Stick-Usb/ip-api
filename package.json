@@ -1,7 +1,6 @@
 {
-  "name": "get-clientip-api",
+  "name": "ip-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "engines": {
     "node": "18.x"
@@ -10,9 +9,14 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Paul Wolf",
   "license": "ISC",
+  "keywords": [
+    "ip",
+    "info"
+  ],
+  "description": "",
   "dependencies": {
-    
+    "express": "^4.18.2"
   }
 }
